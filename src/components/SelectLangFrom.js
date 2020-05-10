@@ -1,10 +1,17 @@
 import React from 'react'
 
 class SelectLangFrom extends React.Component {
+    state = {langFrom: ""}
+
+    langFromChange = (event) => {
+        this.props.langFromChange(this.state.langFrom)
+        this.setState({ langFrom: event.target.value })
+        
+    }
 
     render() {
         return (
-            <select className="ui search dropdown">
+            <select className="ui search dropdown" onChange={this.langFromChange}>
                 <option value="">Z jakiego języka</option>
                 <option value="en">Angielski</option>
                 <option value="bg">Bułgarski</option>
