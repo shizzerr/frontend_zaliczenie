@@ -1,13 +1,17 @@
 import React from "react"
 
 class Output extends React.Component {
-    state = { result: null }
     render() {
         return (
             <div className="search-bar ui segment">
                 <form className="ui form">
                     <div className="field">
-                        <textarea placeholder="Tłumaczenie" type="text" defaultValue={this.state.result}></textarea>
+                        <input
+                            placeholder="Tłumaczenie"
+                            type="text"
+                            disabled={true}
+                            value={this.props.result.replace(/"/g,'')}
+                        />
                     </div>
                 </form>
             </div>
