@@ -17,7 +17,7 @@ W projekcie zostały wykorzystane:
 - React-scripts: 3.4.1
 
 ### Problemy
-Mankamentem projektu jest wybór języków, z jakiego na jaki chcemy tłumaczyc. Aby operacja się powiodła trzeba na rozwijanej liście wybrać konkretny język po przez podwójne kliknięcie w niego.
+Mankamentem projektu jest wybór języków, z jakiego na jaki chcemy tłumaczyc. Aby operacja się powiodła trzeba każdy z nich kliknąc dwukrotnie na rozwijanej liście.
 
 ### Uruchomienie
 Aby uruchomić ten projekt, wykorzystaj Visual Studio Code.
